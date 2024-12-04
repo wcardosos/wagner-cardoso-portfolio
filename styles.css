@@ -111,7 +111,6 @@ main {
 }
 
 #sobre {
-  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem
@@ -129,7 +128,104 @@ main {
   height: 256px;
 }
 
+.section {
+  margin-top: 5rem;
+}
+
 .section-title {
   color: #E53E3E;
   font-size: 3rem;
+}
+
+#formacao > div {
+  margin-top: 1.5rem;
+}
+
+.college {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.college > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.college > div:first-child > span {
+  font-weight: 500;
+}
+
+.college > div:first-child > img {
+  display: flex;
+  width: 8rem;
+  height: 3rem;
+}
+
+.college > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+#portfolio > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: solid 1px #71717A;
+  border-radius: 1.5rem;
+}
+
+.portfolio-item > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.portfolio-item > div > strong {
+  font-size: 1.5rem;
+}
+
+.portfolio-item > a {
+  background-color: #E53E3E;
+  font-weight: 600;
+  width: fit-content;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+}
+
+
+footer {
+  max-width: 80rem;
+  margin: 8rem auto 4rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+footer > div:nth-child(1) {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+footer > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer > a {
+  font-weight: bold;
 }
