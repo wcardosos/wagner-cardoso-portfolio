@@ -111,6 +111,17 @@
           </div>
         </div>
       </section>
+
+      <section id="contato" class="section">
+        <h1 class="section-title">Contato</h1>
+        <form onsubmit="event.preventDefault(); sendContact();">
+          <input type="text" placeholder="Nome" id="name-input" required>
+          <input type="email" placeholder="E-mail" id="email-input" required>
+          <input type="text" placeholder="Telefone (opcional)" id="phone-input">
+          <textarea placeholder="Deixe sua mensagem"  id="message-input" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
 
     <footer>
@@ -125,4 +136,6 @@
       <a href="https://blog.wagnercardoso.dev" target="_blank">Blog</a>
     </footer>
   </body>
+
+  <script src="script.js" defer></script>
 </html>
