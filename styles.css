@@ -1,3 +1,4 @@
+/* Estilos globais */
 * {
   margin: 0;
   padding: 0;
@@ -15,12 +16,37 @@ body {
   font-family: 'Montserrat', sans-serif
 }
 
+.tag {
+  color: #E53E3E;
+  font-weight: bold;
+}
+
+.picture {
+  border-radius: 9999px;
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+.section-title {
+  color: #E53E3E;
+  font-size: 3rem;
+}
+
+/* Estilos do cabeçalho */
 header {
+  width: 100%;
+  position: fixed;
+  background-color: #262525;
+}
+
+header > div:first-child {
   max-width: 80rem;
   margin: 0 auto 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 3rem 0 3rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 nav {
@@ -57,10 +83,7 @@ main {
   color: #E53E3E;
 }
 
-.picture {
-  border-radius: 9999px;
-}
-
+/* Estilos do conteúdo inicial */
 #inicio {
   display: flex;
   flex-direction: column;
@@ -71,7 +94,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 8rem;
+  margin-top: 16rem;
 }
 
 #hero > div > h1 {
@@ -81,11 +104,6 @@ main {
 
 #hero > p {
   font-size: 1.5rem;
-}
-
-.tag {
-  color: #E53E3E;
-  font-weight: bold;
 }
 
 #hero-nav {
@@ -110,6 +128,7 @@ main {
   border-radius: 1rem;
 }
 
+/* Estilos do sobre */
 #sobre {
   display: flex;
   flex-direction: column;
@@ -128,15 +147,7 @@ main {
   height: 256px;
 }
 
-.section {
-  margin-top: 5rem;
-}
-
-.section-title {
-  color: #E53E3E;
-  font-size: 3rem;
-}
-
+/* Estilos da formação */
 #formacao > div {
   margin-top: 1.5rem;
 }
@@ -170,6 +181,7 @@ main {
   gap: 0.75rem;
 }
 
+/* Estilos do portfólio */
 #portfolio > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -205,6 +217,7 @@ main {
   font-size: 0.75rem;
 }
 
+/* Estilos do contato */
 form {
   display: flex;
   flex-direction: column;
@@ -246,7 +259,7 @@ form > button {
   cursor: pointer;
 }
 
-
+/* Estilos do rodapé */
 footer {
   max-width: 80rem;
   margin: 8rem auto 4rem auto;

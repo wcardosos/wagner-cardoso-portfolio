@@ -11,31 +11,41 @@
   </head>
   
   <body>
+    <!--
+      Aluno: Wagner Cardoso da Silva
+      RU: 4996408
+    -->
+
+    <!-- Cabeçalho -->
     <header>
-      <div id="profile">
-        <img src="https://github.com/wcardosos.png?size=48x48" alt="Avatar de Wagner Cardoso" class="picture">
-        <strong>Wagner Cardoso</strong>
-        <div>
-          <a href="https://github.com/wcardosos" target="_blank">
-            <img src="./assets/png/github.png" alt="Github">
-          </a>
-          <a href="https://www.linkedin.com/in/wagner-cardoso-dev/" target="_blank">
-            <img src="./assets/png/linkedin.png" alt="LinkedIn">
-          </a>
+      <div>
+        <div id="profile">
+          <img src="https://github.com/wcardosos.png?size=48x48" alt="Avatar de Wagner Cardoso" class="picture">
+          <strong>Wagner Cardoso</strong>
+          <div>
+            <a href="https://github.com/wcardosos" target="_blank">
+              <img src="./assets/png/github.png" alt="Github">
+            </a>
+            <a href="https://www.linkedin.com/in/wagner-cardoso-dev/" target="_blank">
+              <img src="./assets/png/linkedin.png" alt="LinkedIn">
+            </a>
+          </div>
         </div>
+        <nav>
+          <a href="#sobre">Sobre</a>
+          <a href="#formacao">Formação</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#contato">Contato</a>
+          <a href="#inicio">
+            <img src="./assets/png/logo.png" alt="">
+          </a>
+        </nav>
       </div>
-      <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#formacao">Formação</a>
-        <a href="#portfolio">Portfólio</a>
-        <a href="#contato">Contato</a>
-        <a href="#inicio">
-          <img src="./assets/png/logo.png" alt="">
-        </a>
-      </nav>
     </header>
 
+    <!-- Conteúdo principal -->
     <main>
+      <!-- Conteúdo inicial -->
       <section id="inicio">
         <div id="hero">
           <div>
@@ -56,6 +66,7 @@
         </div>
       </section>
 
+      <!-- Sobre -->
       <section id="sobre" class="section">
         <h1 class="section-title">Sobre mim</h1>
         <div>
@@ -70,6 +81,7 @@
         </div>
       </section>
 
+      <!-- Formação -->
       <section id="formacao" class="section">
         <h1 class="section-title">Formação</h1>
         <div>
@@ -86,33 +98,35 @@
         </div>
       </section>
 
+      <!-- Portfólio -->
       <section id="portfolio" class="section">
         <h1 class="section-title">Portfólio</h1>
         <div>
           <div class="portfolio-item">
             <div>
               <strong>Site pessoal</strong>
-              <p>Lorem ipsum dolor sit amet consectetur. Urna sed feugiat turpis volutpat. Blandit aliquam sed proin et nisi ornare. Ipsum ac felis et massa dolor aenean. Mauris ultrices aliquam tortor pretium. Scelerisque donec dolor ut enim et. Fames dui.</p>
+              <p>Site profissional onde mostro um pouco mais sobre minha carreira. Lá voce pode conhecer mais sobre mim, os projetos que desenvolvi e acessar minha rede de contatos. O site foi desenvolvido utilizando Next.js.</p>
             </div>
             <a href="https://wagnercardoso.dev">Acessar</a>
           </div>
           <div class="portfolio-item">
             <div>
               <strong>Blog pessoal</strong>
-              <p>Lorem ipsum dolor sit amet consectetur. Urna sed feugiat turpis volutpat. Blandit aliquam sed proin et nisi ornare. Ipsum ac felis et massa dolor aenean. Mauris ultrices aliquam tortor pretium. Scelerisque donec dolor ut enim et. Fames dui.</p>
+              <p>Meu blog onde compartilho alguns dos meus estudos, conhecimentos e experiências. O blog foi desenvolvido utilizando Next.js com os posts sendo lidos via markdown. </p>
             </div>
             <a href="https://blog.wagnercardoso.dev">Acessar</a>
           </div>
           <div class="portfolio-item">
             <div>
               <strong>Diagene</strong>
-              <p>Lorem ipsum dolor sit amet consectetur. Urna sed feugiat turpis volutpat. Blandit aliquam sed proin et nisi ornare. Ipsum ac felis et massa dolor aenean. Mauris ultrices aliquam tortor pretium. Scelerisque donec dolor ut enim et. Fames dui.</p>
+              <p>A Diagene é uma empresa especializada em análises genéticas, oferecendo soluções avançadas em farmacogenética, nutrigenética e testes de predisposição a doenças hereditárias. Desenvolvido em Next.js.</p>
             </div>
             <a href="https://diagene.com.br">Acessar</a>
           </div>
         </div>
       </section>
 
+      <!-- Contato -->
       <section id="contato" class="section">
         <h1 class="section-title">Contato</h1>
         <form onsubmit="event.preventDefault(); sendContact();">
@@ -125,6 +139,7 @@
       </section>
     </main>
 
+    <!-- Rodapé -->
     <footer>
       <div>
         <img src="./assets/png/logo.png" alt="">
