@@ -1,3 +1,8 @@
+/*
+  Aluno: Wagner Cardoso da Silva
+  RU: 4996408
+*/
+
 // Função para pegar os dados dos inputs, mostrar um alerta na tela e limpar os inputs após o submit
 function sendContact() {
   // Busca dos inputs
